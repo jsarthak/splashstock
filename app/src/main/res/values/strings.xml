@@ -1,0 +1,162 @@
+<resources>
+    <string name="app_name">SplashStock</string>
+
+    <string name="title_editorial">Editorial</string>
+    <string name="title_featured">Curated</string>
+    <string name="title_profile">Me</string>
+    <string name="title_collection">Collection</string>
+
+    <!--API-->
+    <string name="base_url" translatable="false">api.unsplash.com</string>
+    <string name="featured_path" translatable="false">curated</string>
+ <!--   <string name="client_id" translatable="false">9b002f07a05243d16d7ae7ee0ceb8673892948e3ce59a9c659fb90c83de9300f</string>
+    <string name="client_secret" translatable="false">3c2101d352088181eb6f97a3b82914013354afed65729b6775bc6775b1e0e965</string>
+-->
+
+    <string name="client_id" translatable="false">9ccb3d549ec8bae26b66880b0af1cd5a5d9f0490c9337ac1b7ea54b2b5718981</string>
+    <string name="client_secret" translatable="false">bc03569b2f6df35dcb876028f6ab4851f5c201c2bdd71e36bf1d060d44dac6ee</string>
+
+
+    <!-- <string name="client_id" translatable="false">4e06c1f6270cc5f9a9aeaa551ba6ee512e252565db44622d2fb73890d8397517</string>
+    <string name="client_secret" translatable="false">ff4cca17a92559a3122447240a05102059afe40c90ade4df5bbd3b2e994f2278</string>-->
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+
+
+    <string name="access_token" translatable="false">access_token</string>
+    <string name="token_type" translatable="false">token_type</string>
+    <string name="refresh_token" translatable="false">refresh_token</string>
+    <string name="scope" translatable="false">scope</string>
+    <string name="token_created_at" translatable="false">created_at</string>
+
+
+    <string name="client_secret_tag" translatable="false">client_secret</string>
+    <string name="client_id_tag" translatable="false">client_id</string>
+    <!--editorial-->
+    <string name="editorial_path" translatable="false">photos</string>
+    <string name="collections_path" translatable="false">collections</string>
+    <string name="per_page" translatable="false">per_page</string>
+    <string name="page" translatable="false">page</string>
+
+
+    <string name="id" translatable="false">id</string>
+    <string name="created_at" translatable="false">created_at</string>
+    <string name="share_key" translatable="false">share_key</string>
+    <string name="updated_at" translatable="false">updated_at</string>
+    <string name="color" translatable="false">color</string>
+    <string name="slug" translatable="false">slug</string>
+    <string name="height" translatable="false">height</string>
+    <string name="width" translatable="false">width</string>
+    <string name="likes" translatable="false">likes</string>
+    <string name="description" translatable="false">description</string>
+    <string name="categories" translatable="false">categories</string>
+    <string name="sponsored" translatable="false">sponsored</string>
+    <string name="current_user_collections" translatable="false">current_user_collections</string>
+    <string name="liked_by_user" translatable="false">liked_by_user</string>
+    <string name="raw" translatable="false">raw</string>
+    <string name="regular" translatable="false">regular</string>
+    <string name="full" translatable="false">full</string>
+    <string name="small" translatable="false">small</string>
+    <string name="thumb" translatable="false">thumb</string>
+    <string name="self" translatable="false">self</string>
+    <string name="html" translatable="false">html</string>
+    <string name="download" translatable="false">download</string>
+    <string name="download_location" translatable="false">download_location</string>
+    <string name="links" translatable="false">links</string>
+    <string name="urls" translatable="false">urls</string>
+    <string name="user" translatable="false">user</string>
+    <string name="username" translatable="false">username</string>
+    <string name="name" translatable="false">name</string>
+    <string name="first_name" translatable="false">first_name</string>
+    <string name="last_name" translatable="false">last_name</string>
+    <string name="twitter_username" translatable="false">twitter_username</string>
+    <string name="portfolio_url" translatable="false">portfolio_url</string>
+    <string name="bio" translatable="false">bio</string>
+    <string name="location" translatable="false">location</string>
+    <string name="profile_image" translatable="false">profile_image</string>
+    <string name="user_medium" translatable="false">medium</string>
+    <string name="user_large" translatable="false">large</string>
+    <string name="user_small" translatable="false">user_small</string>
+    <string name="instagram_username" translatable="false">instagram_username</string>
+    <string name="total_collections" translatable="false">total_collections</string>
+    <string name="total_likes" translatable="false">total_likes</string>
+    <string name="total_photos" translatable="false">total_photos</string>
+    <string name="user_updated_at" translatable="false">user_updated_at</string>
+    <string name="user_html" translatable="false">user_html</string>
+    <string name="user_likes" translatable="false">user_likes</string>
+    <string name="user_self" translatable="false">user_self</string>
+    <string name="user_photos" translatable="false">photos</string>
+    <string name="user_portfolio" translatable="false">portfolio</string>
+    <string name="user_following" translatable="false">following</string>
+    <string name="user_followers" translatable="false">followers</string>
+    <string name="user_id" translatable="false">user_id</string>
+    <string name="title" translatable="false">title</string>
+    <string name="collection_description">collection_description</string>
+    <string name="collection_id" translatable="false">collection_id</string>
+    <string name="collection_published_at" translatable="false">published_at</string>
+    <string name="collection_updated_at" translatable="false">collection_updated_at</string>
+    <string name="collection_curated" translatable="false">collection_curated</string>
+    <string name="curated" translatable="false">curated</string>
+    <string name="collection_featured" translatable="false">collection_featured</string>
+    <string name="featured" translatable="false">featured</string>
+    <string name="collection_photo_count" translatable="false">collection_photo_count</string>
+    <string name="isprivate" translatable="false">private</string>
+    <string name="collection_private" translatable="false">collection_private</string>
+    <string name="collection_share_key" translatable="false">collection_share_key</string>
+    <string name="tags" translatable="false">tags</string>
+    <string name="collection_tags" translatable="false">collection_tags</string>
+    <string name="exif" translatable="false">exif</string>
+    <string name="make" translatable="false">make</string>
+    <string name="model" translatable="false">model</string>
+    <string name="exposure_time" translatable="false">exposure_time</string>
+    <string name="aperture" translatable="false">aperture</string>
+    <string name="focal_length" translatable="false">focal_length</string>
+    <string name="iso" translatable="false">iso</string>
+    <string name="city" translatable="false">city</string>
+    <string name="photo_location">photo_location</string>
+    <string name="location_title">location_title</string>
+    <string name="country">country</string>
+    <string name="views" translatable="false">views</string>
+    <string name="downloads" translatable="false">downloads</string>
+
+    <string name="order_by" translatable="false">order_by</string>
+    <string name="latest" translatable="false">latest</string>
+    <string name="oldest" translatable="false">oldest</string>
+    <string name="popular" translatable="false">popular</string>
+    <string name="title_activity_photo_detail">PhotoDetailActivity</string>
+    <string name="title_activity_collection">CollectionActivity</string>
+    <string name="title_activity_edit_profile">EditProfileActivity</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+    <!-- Settings -->
+    <string name="title_quality_section">Quality</string>
+    <string name="title_load_quality_preference">Load Quality</string>
+    <string name="summary_load_quality_preference">Choose the quality of the images that are loaded</string>
+    <string name="title_download_quality_preference">Download Quality</string>
+    <string name="summary_download_quality_preference">Choose the quality of the images that are downloaded</string>
+    <string name="title_wallpaper_quality_preference">Wallpaper Quality</string>
+    <string name="summary_wallpaper_quality_preference">Choose the quality of the wallpapers set</string>
+    <array name="quality_options">
+        <item>Raw</item>
+        <item>Full</item>
+        <item>Regular</item>
+        <item>Small</item>
+        <item>Thumb</item>
+    </array>
+    <array name="quality_options_values">
+        <item>Raw</item>
+        <item>Full</item>
+        <item>Regular</item>
+        <item>Small</item>
+        <item>Thumb</item>
+    </array>
+    <string name="default_load_quality">Regular</string>
+    <string name="default_download_quality">Full</string>
+
+
+</resources>

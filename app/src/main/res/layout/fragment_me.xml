@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.Main.MeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/me_login_container"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:elevation="8dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="SPLASHSTOCK"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login with your existing Unsplash account or join now for free for millions of free and beautiful photos..."
+            android:layout_gravity="center"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="8dp"/>
+
+
+        <Button
+            android:layout_marginTop="24dp"
+            android:id="@+id/btn_login"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/login_button_bg"
+            android:gravity="center"
+            android:text="Log in"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_marginTop="24dp"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:background="@drawable/login_button_bg"
+            android:text="Join for free"
+            android:layout_gravity="center"
+            android:id="@+id/btn_join"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/me_container">
+        <android.support.v4.view.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/vp_me"/>
+
+    </FrameLayout>
+
+
+
+</FrameLayout>
